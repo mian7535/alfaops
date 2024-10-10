@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/AerostatSoftware/!svn/ver/10/DevelopmentLibrary/TCPConnection/ver2.0/GUI
+END
+BallonetPressure.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/BallonetPressure.h
+END
+ConfluencePointTension.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/ConfluencePointTension.h
+END
+Logo.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/Logo.qrc
+END
+GCSMainWindow.ui
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/GCSMainWindow.ui
+END
+Sleeper.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/Sleeper.h
+END
+Pitch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/Pitch.cpp
+END
+Roll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/Roll.cpp
+END
+GCSMainWindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/AerostatSoftware/!svn/ver/10/DevelopmentLibrary/TCPConnection/ver2.0/GUI/GCSMainWindow.cpp
+END
+HeliumPressure.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/HeliumPressure.cpp
+END
+Pitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/Pitch.h
+END
+Roll.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/Roll.h
+END
+GCSMainWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/GCSMainWindow.h
+END
+HeliumPressure.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/HeliumPressure.h
+END
+WindSpeed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/WindSpeed.cpp
+END
+adasi.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/adasi.png
+END
+WindSpeed.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/WindSpeed.h
+END
+BallonetPressure.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/BallonetPressure.cpp
+END
+ConfluencePointTension.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/AerostatSoftware/!svn/ver/7/DevelopmentLibrary/TCPConnection/ver2.0/GUI/ConfluencePointTension.cpp
+END

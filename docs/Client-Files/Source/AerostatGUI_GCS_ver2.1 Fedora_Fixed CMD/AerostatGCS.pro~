@@ -1,0 +1,63 @@
+#-------------------------------------------------
+#
+# Project created by QtCreator 2012-10-07T16:32:01
+#
+#-------------------------------------------------
+
+QT       += core gui network
+
+TARGET = AerostatGCS
+TEMPLATE = app
+
+CONFIG  += build_all debug_and_release
+
+CONFIG(debug, debug|release) {
+   message("DEBUG!")
+   TARGET = $$join(TARGET,,,_debug)
+}
+else {
+   DEFINES += QT_NO_DEBUG
+   DEFINES += QT_NO_DEBUG_OUTPUT
+   message("RELEASE!")
+   TARGET = AerostatGCS
+}
+
+SOURCES += main.cpp\
+    GUI/GCSMainWindow.cpp \
+    GUI/ConfluencePointTension.cpp \
+    GUI/WindSpeed.cpp \
+    GUI/HeliumPressure.cpp \
+    GUI/BallonetPressure.cpp \
+    GUI/Pitch.cpp \
+    GUI/Roll.cpp \
+    Interface.cpp \
+    DataLog.cpp
+
+HEADERS  += GUI/GCSMainWindow.h \
+    GUI/ConfluencePointTension.h \
+    GUI/WindSpeed.h \
+    GUI/HeliumPressure.h \
+    GUI/BallonetPressure.h \
+    GUI/Pitch.h \
+    GUI/Roll.h \
+    Interface.h \
+    DataLog.h \
+    Debug.h
+
+FORMS    += GUI/GCSMainWindow.ui
+
+# Fedora
+#INCLUDEPATH += /usr/local/qwt-6.0.2/src
+# Linux
+INCLUDEPATH += /usr/local/qwt-6.0.2/include
+LIBS += -L/usr/local/qwt-6.0.2/lib/
+LIBS += -lqwt
+
+#     CONFIG(debug, debug|release) {
+#         LIBS += -lqwtd
+#     } else {
+#         LIBS += -lqwt
+#     }
+
+RESOURCES += \
+    GUI/Logo.qrc

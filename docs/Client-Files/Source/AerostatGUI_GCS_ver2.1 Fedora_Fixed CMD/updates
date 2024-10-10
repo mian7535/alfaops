@@ -1,0 +1,9 @@
+Aerostat GCS SW ver 2.0 is able to receive PDU data:
+* E-box temperature
+* The status of fans and lights
+through port [readPortEBox] in AerostatGCS.ini 
+
+Aerostat GCS SW ver 3.0 modified to be able to receive both Helium and
+Ballonet sensors. The Interface.cpp file modified from '#01CP' to '?01CP'. 
+
+Update the blue arrow on the wind heading. 
