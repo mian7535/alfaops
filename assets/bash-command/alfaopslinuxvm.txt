@@ -1,0 +1,75 @@
+sudo /usr/bin/vmhgfs-fuse .host:/aerostat-development-shared /home/alfa/vmshare -o subtype=vmhgfs-fuse,allow_other
+
+cmake -DCMAKE_BUILD_TYPE=Release -DUWEBSOCKETS_SOURCE_DIR=/home/alfa/uWebSockets ..
+cmake --build . --config release
+
+sudo /usr/bin/vmhgfs-fuse .host:/aerostat-development-shared /home/alfa/vmshare -o subtype=vmhgfs-fuse,allow_other
+
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+./example
+
+
+installing mongodb for local development
+
+sudo apt-get install gnupg curl
+
+curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg \
+   --dearmor
+
+
+scp -r a6admin@20.203.102.81:/home/a6admin /home/alfa/vmshare/aerostat_server_db_fetch/mongodb_example
+
+scp /home/alfa/vmshare/aerostat_server_db_fetch/mongo_ws_example .
+
+cmake .. && cmake --build . && make main
+
+cd .. && rm -rf ./build && mkdir build && cd build
+
+
+collection
+
+ahrs_sensor_readings
+avionics_environment_sensor_readings
+ballonet_curtain_height_sensor_readings
+ballonet_pressure_sensor_readings
+hull_pressure_sensor_readings
+lift_sensor_readings
+relay_status
+weather_sensor_readings
+
+
+phase1
+
+adams_sensor 				---done
+ballonet_pressure			---done
+digital_compass				---done
+helium_pressure				---done
+weather_station				---done
+fan_light
+
+phase2
+
+hull_pressure				---done
+ballonet_pressure			---done	
+weather_station				---done	
+load_cell				---done
+ahrs					---done
+ultrasonic				---done
+temp_humidity				---done
+relay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
